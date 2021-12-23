@@ -1,0 +1,109 @@
+.header{
+    margin : 0;
+    padding : 0;
+    
+}
+.about .abt-text-h{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.about .box{
+    width : 20px;
+    height : 20px;
+}
+.about .abt-text{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: -2px 1px 2px rgba(250, 217, 217, 0.6);;
+}
+.about .abt-text-q{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutusbtn{
+    color : black !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px !important;
+}
+.aboutusbtn:hover{
+    background: red !important;
+    box-shadow: -6px 5px 18px 5px rgba(241, 241, 241, 0.74);
+    color : white !important;
+}
+#category{
+    background : black;
+}
+#category  .box{
+    box-shadow: 3px -1px 15px 3px rgba(161,121,121,0.54) ;
+    border: 2px solid rgb(82, 81, 81) !important;
+    transition: transform,letter-spacing;
+    transition-duration:1s ;
+}
+#category .box:hover{
+    background: whitesmoke;
+    border: 2px solid rgb(136, 136, 136);
+    box-shadow: -4px 4px 15px 3px rgba(112, 112, 112, 0.72);
+    transform: scale(1.02, 1.02);
+}
+.cat-h h3{
+    font-size: 80px;
+    color : white;
+    text-shadow: -2px 2px 2px rgba(255,0,0,0.62);
+    font-family: 'Times New Roman', Times, serif;
+}
+.cat-text1
+{
+    font-family: 'Courier New', Courier, monospace;
+    color : rgb(255, 52, 52);
+}
+.cat-btn{
+    font-family: 'Times New Roman', Times, serif;
+}
+.cat-btn:hover{
+    
+    color : black !important;
+    background: white !important;
+    border:  2px solid rgb(207, 207, 207) !important;
+}
+#latest{
+    width : 100%;
+    height : 25vh;
+    overflow: hidden;
+}
+
+#footer{
+    background: black;
+
+}
+#footer .f-h-text{
+    font-size: 24px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+#footer .f1c .f-text{
+    font-size: 15px;
+    color : whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+#footer .f2c .f-text{
+    font-size: 16px;
+    color : whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+#footer .f3c ul{
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+#footer .f3c ul li a:link,#footer .f3c ul li a:visited{
+    text-decoration: none ;
+    color : whitesmoke;
+    transition: all 0.8s;
+}
+#footer .f3c ul li a:hover{
+color : red;
+font-weight: bolder;
+margin-left : 10px;
+}
+#footer .f-bottom{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
