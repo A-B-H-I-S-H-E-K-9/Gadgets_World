@@ -1,8 +1,23 @@
 .header{
     margin : 0;
     padding : 0;
-    
 }
+/* navbar */
+.navbar-brand{
+    font-size: 25px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:red !important;
+}
+.active{
+    color : red !important;
+}
+
 .about .abt-text-h{
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
@@ -45,6 +60,10 @@
     box-shadow: -4px 4px 15px 3px rgba(112, 112, 112, 0.72);
     transform: scale(1.02, 1.02);
 }
+
+#category .box:hover .cat-text1{
+    color : black !important;
+}
 .cat-h h3{
     font-size: 80px;
     color : white;
@@ -60,7 +79,6 @@
     font-family: 'Times New Roman', Times, serif;
 }
 .cat-btn:hover{
-    
     color : black !important;
     background: white !important;
     border:  2px solid rgb(207, 207, 207) !important;
@@ -91,6 +109,9 @@
 }
 #footer .f3c ul{
     list-style: none;
+    font-family: 'Cinzel Decorative', cursive;
+}
+#footer .f3c ul li a{
     font-family: 'Courier New', Courier, monospace;
 }
 #footer .f3c ul li a:link,#footer .f3c ul li a:visited{

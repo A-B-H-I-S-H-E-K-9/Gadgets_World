@@ -1,0 +1,60 @@
+.header{
+    margin : 0;
+    padding : 0;
+}
+/* navbar */
+.navbar-brand{
+    font-size: 25px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:red !important;
+}
+.active{
+    color : red !important;
+}
+/* ----------------------------------------- */
+
+#footer{
+    background: black;
+
+}
+#footer .f-h-text{
+    font-size: 24px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+#footer .f1c .f-text{
+    font-size: 15px;
+    color : whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+#footer .f2c .f-text{
+    font-size: 16px;
+    color : whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+#footer .f3c ul{
+    list-style: none;
+    font-family: 'Cinzel Decorative', cursive;
+}
+#footer .f3c ul li a{
+    font-family: 'Courier New', Courier, monospace;
+}
+#footer .f3c ul li a:link,#footer .f3c ul li a:visited{
+    text-decoration: none ;
+    color : whitesmoke;
+    transition: all 0.8s;
+}
+#footer .f3c ul li a:hover{
+color : red;
+font-weight: bolder;
+margin-left : 10px;
+}
+#footer .f-bottom{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
