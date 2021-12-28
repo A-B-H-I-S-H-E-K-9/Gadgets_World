@@ -1,60 +1,326 @@
-.header{
-    margin : 0;
-    padding : 0;
+.header {
+    margin: 0;
+    padding: 0;
 }
+
 /* navbar */
-.navbar-brand{
+.navbar-brand {
     font-size: 25px;
     font-family: 'Cinzel Decorative', cursive;
 }
-.nav-link{
+
+.nav-link {
     font-size: 20px;
     font-weight: bold;
 }
-.nav-link:hover{
-    color:red !important;
+
+.nav-link:hover {
+    color: red !important;
 }
-.active{
-    color : red !important;
+
+.active {
+    color: red !important;
 }
+
 /* ----------------------------------------- */
-
-#footer{
-    background: black;
-
+.top-bg {
+    height: 91vh;
+    background: url('cimages/category_bg.jpg');
+    background-size: 100% 100%;
+    justify-content: center;
 }
-#footer .f-h-text{
+
+@media screen and (max-width : 900px) {
+    .top-bg {
+        height: 46vh;
+    }
+    .top-bg  .text1
+    {
+     font-size: 25px;
+     line-height: 20px;
+    }
+    .top-bg .text2{
+        font-size  : 16px;
+        line-height: 5px;
+        color : rgb(214, 80, 75);
+        text-shadow: 2px 1px 8px rgb(27, 51, 41);
+    }
+    form
+    {
+        display: none;
+    }
+}
+@media screen and(max-width : 1200px){
+    
+   .top-bg  .text1,.text2{
+    display : none;
+}
+form{
+    display: none;
+}
+}
+
+.top-bg .row {
+    margin-top: 100px;
+}
+
+.text1 {
+    font-size: 80px;
+    color: rgb(15, 250, 238);
+    text-shadow: 2px 1px 8px rgb(241, 252, 149);
+    line-height: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.top-bg .text2 {
+    line-height: 35px;
+    color: rgb(0, 247, 255);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    word-spacing: 3px;
+    text-shadow: 4px 2px 10px rgb(151, 184, 255);
+}
+
+.form-control {
+    padding: 20px 75px !important;
+}
+
+/* Category Bootsnipp*/
+.container .h3 {
+    text-align: center;
+    margin: 1em;
+    text-transform: capitalize;
+    font-size: 40px;
+    color :rgb(255, 38, 0);
+    font-family: 'Cinzel Decorative', cursive;
+    text-shadow: -1px 3px 4px rgb(235, 177, 133),-5px 0px 4px rgb(253, 255, 143);
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+/********************* Shopping Demo-8 **********************/
+.product-grid8 {
+    font-family: Poppins, sans-serif;
+    position: relative;
+    z-index: 1
+}
+
+.product-grid8 .product-image8 {
+    border: 1px solid #797979;
+    position: relative;
+    transition: all .3s ease 0s;
+}
+
+.product-grid8:hover .product-image8 {
+    box-shadow: 2 1 10px rgba(79, 151, 179, 0.479);
+}
+
+.product-grid8 .product-image8 a {
+    display: block;
+}
+
+.product-grid8 .product-image8 img {
+    width: 100%;
+    height: auto;
+}
+
+.product-grid8 .pic-1 {
+    opacity: 1;
+    transition: all .5s ease-out 0s;
+}
+
+.product-grid8:hover .pic-1 {
+    opacity: 0;
+}
+
+.product-grid8 .pic-2 {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease-out 0s
+}
+
+.product-grid8:hover .pic-2 {
+    opacity: 1
+}
+
+.product-grid8 .social {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+    z-index: 1;
+}
+
+.product-grid8 .social li {
+    opacity: 0;
+    transform: translateY(3px);
+    transition: all .5s ease 0s;
+}
+
+.product-grid8:hover .social li {
+    margin: 0 0 10px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.product-grid8:hover .social li:nth-child(1) {
+    transition-delay: .1s
+}
+
+.product-grid8:hover .social li:nth-child(2) {
+    transition-delay: .2s
+}
+
+.product-grid8:hover .social li:nth-child(3) {
+    transition-delay: .4s
+}
+
+.product-grid8 .social li a {
+    color: rgb(29, 184, 255);
+    font-size: 17px;
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(47, 148, 243);
+    display: block;
+    transition: all .5s ease-in-out
+}
+
+.product-grid8 .social li a:hover {
+    color: rgb(255, 14, 14);
+    border-color: rgb(255, 14, 14);
+}
+
+
+.product-grid8 .product-content {
+    padding: 20px 0 0;
+}
+
+.product-grid8 .price {
+    color: #000;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    text-align: left;
+    transition: all .3s
+}
+
+.product-grid8 .product-shipping {
+    color: rgba(0, 0, 0, .5);
+    font-size: 15px;
+    padding-left: 35px;
+    margin: 0 0 15px;
+    display: block;
+    position: relative
+}
+
+.product-grid8 .product-shipping:before {
+    content: '';
+    height: 1px;
+    width: 25px;
+    background-color: rgba(0, 0, 0, .5);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 0
+}
+
+.product-grid8 .title {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0 0 30px;
+    transition: all .3s ease 0s
+}
+
+.product-grid8 .title a {
+    color: #000
+}
+
+.product-grid8 .title a:hover {
+    color: #0081c2
+}
+
+.product-grid8 .all-deals {
+    display: block;
+    color: #fff;
+    background-color: #20598b;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 22px 5px;
+    transition: all .5s ease 0s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.product-grid8 .all-deals .icon {
+    margin-left: 7px;
+}
+
+.product-grid8 .all-deals:hover {
+    background-color: #d43833;
+}
+
+@media only screen and (max-width:990px) {
+    .product-grid8 {
+        margin-bottom: 30px;
+    }
+}
+
+
+/*-------------------------- footer------------- */
+#footer {
+    background: black;
+}
+
+#footer .f-h-text {
     font-size: 24px;
     font-family: 'Cinzel Decorative', cursive;
 }
-#footer .f1c .f-text{
+
+#footer .f1c .f-text {
     font-size: 15px;
-    color : whitesmoke;
+    color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;
 }
-#footer .f2c .f-text{
+
+#footer .f2c .f-text {
     font-size: 16px;
-    color : whitesmoke;
+    color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;
 }
-#footer .f3c ul{
+
+#footer .f3c ul {
     list-style: none;
     font-family: 'Cinzel Decorative', cursive;
 }
-#footer .f3c ul li a{
+
+#footer .f3c ul li a {
     font-family: 'Courier New', Courier, monospace;
 }
-#footer .f3c ul li a:link,#footer .f3c ul li a:visited{
-    text-decoration: none ;
-    color : whitesmoke;
+
+#footer .f3c ul li a:link,
+#footer .f3c ul li a:visited {
+    text-decoration: none;
+    color: whitesmoke;
     transition: all 0.8s;
 }
-#footer .f3c ul li a:hover{
-color : red;
-font-weight: bolder;
-margin-left : 10px;
+
+#footer .f3c ul li a:hover {
+    color: red;
+    font-weight: bolder;
+    margin-left: 10px;
 }
-#footer .f-bottom{
+
+#footer .f-bottom {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
 }
