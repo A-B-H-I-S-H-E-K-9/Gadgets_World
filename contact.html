@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="css/font-awesome.css" />
 
   <!-- External Css -->
-  <link rel="stylesheet" href="css/about.css" type="text/css" />
+  <link rel="stylesheet" href="contact.css" type="text/css" />
+  <!-- Put this in your head tag in your template  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <!-- wow js css file -->
   <link rel="stylesheet" href="animate.css" type="text/css">
@@ -36,29 +38,29 @@
 </head>
 
 <body>
-    <!-- navbar -->
   <header class="header sticky-top">
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light h-200 mx-0 position-sticky">
-      <a class="navbar-brand w-25" href="index.html">Gadgets World</a>
+      <a class="navbar-brand w-25" href="#">Gadgets World</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-md-auto mr-2">
-          <li class="nav-item">
-            <a class="nav-link justify-content-center text-dark" href="index.html"><i class="fa fa-home"></i> Home</a>
-          </li>
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link justify-content-sm-start justify-content-center text-danger" href="about.html"><i class="fa fa-info-circle"></i> About
+            <a class="nav-link justify-content-center text-danger" href="index.html"><i class="fa fa-home"></i> Home
               <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link justify-content-center text-dark" href="about.html"><i class="fa fa-info-circle"></i> About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link justify-content-center text-dark" href="category.html"><i class="fa fa-list-alt"></i> Category</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link justify-content-center text-dark"  href="contact.html"><i class="fa fa-phone-square"></i> Contact us</a>
+            <a class="nav-link justify-content-center text-dark" href="contact.html"><i class="fa fa-phone-square"></i> Contact us</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0 w-md-50 w-lg-100">
@@ -71,129 +73,40 @@
     </nav>
   </header>
 
-  <!-- About header -->
-  <div class="container-fluid">
-    <div class="row">
-        <div class="col-12 about-top text-center  text-uppercase ">
-          <p class="text wow fadeInLeft" data-wow-duration="2s">Know ABOUT US</p>
-        </div>
+  <!-- Contact secion -->
+  <section id="Contact">
+
+<div class="container contact-form">
+    <div class="contact-image">
+        <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
     </div>
+    <form method="post">
+        <h3>Drop Us a Message</h3>
+       <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                </div>
+                <div class="form-group">
+                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                </div>
+                <div class="form-group">
+                    <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                </div>
+                <div class="form-group">
+                    <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                </div>
+            </div>
+        </div>
+    </form>
 </div>
-
-<!-- About Section-->
-<section class="about">
-  <div class="container-fluid h-100 bg-white">
-    <div class="row justify-content-center">
-      <!-- first column -->
-      <div class="col-lg-6 col-12   pt-0 justify-content-center wow fadeInLeft" data-wow-duration="2s">
-        <img src="images/about_left.png" width="100%" alt=" " class="img-fluid align-self-start pt-0">
-      </div>
-      <!-- second column -->
-      <div class="col-lg-6 bg-white p-3 mx-0 box-right pt-5 wow fadeInRight" data-wow-duration="2s">
-        <div class="text-lg-left text-center abt-text">
-          <p>
-              Hello  Everyone,<br> I am abhishek kumar and i am very passionate about tech gadgets. Since childhood i started to know about gadgets. In this Era of technology, i found many people are uncomfortable to select the gadgets which are best and worthy for them. So here i came with a solution.
-          </p>
-         <p> 
-            Welcome to<b> Gadgets World.</b> In this platform, you can choose the best gadgets which can full fill your needs. There are  so many devices are available in the market, no matters which category you want to go.And just because of this it is so difficult to choose the right gadgets for us. But here you can choose the gadgets with help a lot of filters which will suggests your gadget.             
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
- 
-<!-- Mission Section -->
-<section id="Mission">
-  <div class="container-fluid">
-    <div class="row justify-content-center p-0">
-      <div class="col-12  py-0 text-center m-header wow fadeInDown p-0" data-wow-duration="2s">
-        <p>
-          Our Mission
-        </p>
-      </div>
-    </div>
-    <div class="row justify-content-center pb-0">
-      <div class="col-lg-7 col-12 justify-content-center m-left  pt-0  text-justify  wow fadeInLeft" data-wow-duration="2s">
-        <p>
-            Our mission is to share the right information of gadgets you want to add on in your life. We have added that type of features in our website and our app too, which will help you to choose or know your gadgets as well. Everyone  should  have the information that what they are using. Don't select gadgets randomly just because of their name, brand or anything like your friend suggestion. You have to use that gadgets so you have the right to select your gadgets with the right information. So our Mission is to give you the best information about the gadget.<br>
-        </p>    
-        <p class="text-center  text-lg-right float-lg-right Quote font-weight-bold font-italic">
-          “We are the children of a technological age. We have found streamlined ways of doing much of our routine work. Printing is no longer the only way of reproducing books. Reading them, however, has not changed.” 
-        </p>
-        <p class="text-center  Quote font-italic text-lg-right float-lg-right text-muted font-weight-bold">
-          ― Lawrence Clark Powell
-        </p>
-      </div>
-      <div class="col-lg-4 col-12 justify-content-center wow fadeInRight " data-wow-duration="2s">
-        <img src="images/mission.png" alt="" class="img-fluid">    
-      </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Our team -->
-<section class="our-webcoderskull pb-5 pt-0">
-  <div class="container">
-    <div class="row heading heading-icon justify-content-center mb-4">
-      <div class="col-12 text-center">
-        <h2>Developer Team</h2>
-      </div>
-    </div>
-    <ul class="row justify-content-center">
-      <li class="col-9 col-sm-7 m-sm-5 col-md-4 box  m-3 m-md-0">
-          <div class="cnt-block equal-hight p-3">
-            <figure><img src="images/kunal-sir.jpg" class="img-responsive" alt=""></figure>
-            <h3>Kunal Mahto</h3>
-            <p class="text-justify text-md-left text-lg-center">
-              Guide of this website -  "Gadgets World". This websit is made under the Guidance of Mr. Kunal Mahto.</p>
-            <ul class="follow-us clearfix">
-              <li><a href="https://www.facebook.com/iamkunal"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a></li>
-              <li><a href="https://twitter.com/kunalkr4u"><i class="fa  fa-twitter-square fa-5x" aria-hidden="true"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/kunal-mahto-8238b518/"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a></li>
-              <li><a href="https://www.instagram.com/kunalkr4u/"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a></li>
-              <li><a href="http://www.kunalitechnology.in/"><i class="fa fa-globe  fa-5x" aria-hidden="true"></i></a></li>
-            </ul>
-          </div>
-      </li>
-      <li class="col-9 col-sm-7 m-sm-5 col-md-4 box  m-3 m-md-0">
-          <div class="cnt-block equal-hight p-3 box">
-            <figure><img src="images/abhi.jpeg" class="img-responsive" alt=""></figure>
-            <h3>
-              Abhishek Kumar</h3>
-              <p class="text-justify text-md-left text-lg-center">
-              Designer of this Website - "Gadgets World". This website is maintained by Abhishek Kumar.</p>
-            <ul class="follow-us clearfix">
-              <li><a href="https://www.facebook.com/profile.php?id=100025240521963"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a></li>
-              <li><a href="https://twitter.com/Abhishe61029719"  ><i class="fa  fa-twitter-square fa-5x" aria-hidden="true"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/abhishek-kumar-4b977116a/"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a></li>
-              <li><a href="https://www.instagram.com/abhi_the_creator__/"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a></li>
-              <li><a href="https://a-b-h-i-s-h-e-k-9.github.io/Gadgets_World/"><i class="fa fa-globe fa-5x" aria-hidden="true"></i></a></li>
-            </ul>
-          </div>
-      </li>
-      <li class="col-9 col-sm-7 m-sm-5 col-md-4 box  m-3 m-md-0">
-          <div class="cnt-block equal-hight p-3 box">
-            <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
-            <h3>
-              Unknown Person</h3>
-              <p class="text-justify text-md-left text-lg-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatem deleniti quae</p>
-            <ul class="follow-us clearfix">
-              <li><a href="#"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa  fa-twitter-square fa-5x" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a></li>
-            </ul>
-          </div>
-       </li>
-    </ul>
-  </div>
-</section>
-
-<!---  footer area  -->
+  </section>
+  <!-- footer area  -->
   <footer id="footer">
     <div class="container-fluid pt-0">
       <!-- first row  -->
@@ -287,6 +200,8 @@
       </div>
 
   </footer>
+
+
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -298,6 +213,7 @@
   <script>
     new WOW().init();
   </script>
+
 </body>
 
 </html>

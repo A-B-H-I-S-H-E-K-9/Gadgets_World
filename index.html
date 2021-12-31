@@ -10,6 +10,8 @@
 
   <!-- External Css -->
   <link rel="stylesheet" href="style.css" type="text/css" />
+  <!-- Put this in your head tag in your template  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <!-- wow js css file -->
   <link rel="stylesheet" href="animate.css" type="text/css">
@@ -36,7 +38,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header sticky-top">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light h-200 mx-0 position-sticky">
       <a class="navbar-brand w-25" href="#">Gadgets World</a>
@@ -48,20 +50,17 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link justify-content-center" href="index.html"><i class="fa fa-home"></i> Home
+            <a class="nav-link justify-content-center text-danger" href="index.html"><i class="fa fa-home"></i> Home
               <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link justify-content-center" href="about.html"><i class="fa fa-info-circle"></i> About</a>
+            <a class="nav-link justify-content-center text-dark" href="about.html"><i class="fa fa-info-circle"></i> About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link justify-content-center" href="category.html"><i class="fa fa-list-alt"></i> Category</a>
+            <a class="nav-link justify-content-center text-dark" href="category.html"><i class="fa fa-list-alt"></i> Category</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link justify-content-center" href="gallery.html"><i class="fa fa-photo"></i> Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link justify-content-center" href="contact.html"><i class="fa fa-phone-square"></i> Contact us</a>
+            <a class="nav-link justify-content-center text-dark" href="contact.html"><i class="fa fa-phone-square"></i> Contact us</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0 w-md-50 w-lg-100">
@@ -384,7 +383,7 @@
                 <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
                 <li><a href="about.html"><i class="fa fa-info-circle"></i> About us</a></li>
                 <li><a href="category.html"><i class="fa fa-list-alt"></i> Categories</a></li>
-                <li><a href="gallery.html"><i class="fa fa-photo"></i> Gallery</a></li>
+                <li><a href="#"><i class="fa fa-rocket"></i> Gadget</a></li>
                 <li><a href="faq.html"><i class="fa fa-question-circle"></i> FAQ</a></li>
               </ul>
             </div>
@@ -428,6 +427,8 @@
       </div>
 
   </footer>
+
+
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -439,6 +440,7 @@
   <script>
     new WOW().init();
   </script>
+
 </body>
 
 </html>
